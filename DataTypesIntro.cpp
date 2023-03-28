@@ -60,11 +60,15 @@ int main()
     
     // A long takes twice the memory as Int, but lets us store bigger whole numbers.  
     // If we try to exceed the largest number we can store its called an overflow. 
-    
+    // Overflows in programming are generally really bad and are best avoided.  Catistrophic things have happend
+    // like rockets blowing up because of overflows.
+    // We will worry about things like this more later on but at least now you know the basic concept. 
+ 
     long int bigNumber = 2147483647;
     
     //A float is a 32 bit floating point number, aka a number with decimals.  
-    //Because this an obvious mathmatical constant. This is a good time to make this a constant with const 
+    //Because this an obvious mathmatical constant. This is a good time to make this a constant with const keyword. 
+    //The const keyword tells the complier that once we declare this variable it should stay a fixed value and never change. 
     
     const float pi = 3.141;  
     
