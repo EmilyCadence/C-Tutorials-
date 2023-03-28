@@ -29,7 +29,7 @@ int main()
     The amount of memory is usually something like 8 bits, 16 bits, 32 bits, 64 bits, etc... based om 
     whats needed for a specific type.   Some types take more bits to store data, than others.  For example
     a simple true and false state only needs a single bit to store true or false.    A big number might
-    need 64 bits.  
+    need 64 bits.  We don't want to pointlessly waste memory we don't NEED to use. 
     
     C is a statically typed language.  When we declare a variable, we need 
     to define a specific type.  This isn't python where we can just make a variable to 
