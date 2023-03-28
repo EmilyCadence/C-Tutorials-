@@ -27,7 +27,9 @@ int main()
     
     When we store a variable in memory.  this is represented as binary data.  I.e zeros and ones.   
     The amount of memory is usually something like 8 bits, 16 bits, 32 bits, 64 bits, etc... based om 
-    whats needed for a specific type.  
+    whats needed for a specific type.   Some types take more bits to store data, than others.  For example
+    a simple true and false state only needs a single bit to store true or false.    A big number might
+    need 64 bits.  
     
     C is a statically typed language.  When we declare a variable, we need 
     to define a specific type.  This isn't python where we can just make a variable to 
