@@ -30,7 +30,13 @@ int main()
     whats needed for a specific type.  
     
     C is a statically typed language.  When we declare a variable, we need 
-    to define a specific type.
+    to define a specific type.  This isn't python where we can just make a variable to 
+    store whatever we throw at it.   We have to be very specific when we tell the compiler 
+    what we are storing.   This is a good thing because it gives us a lot of 
+    control over how our code handles certain things.  It makes sure the type stays the same unless
+    we specifically overide that. It also gives us a degree of 
+    safety because keeps the compiler from doing something  we did not intend compared 
+    to if we let it try to deduce and figure out the type for us. 
     
     We have a number of primative or fundemental data types to work with.
     These are some of the more common ones. 
