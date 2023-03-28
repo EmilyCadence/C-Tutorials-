@@ -2,7 +2,7 @@
  
  Intro to C Data Types - Emily CS 
  
- Author Emily CS Ecscvt@gmail.com 
+ Author Emily CS 
  
  Copyright 2/12/23 Emily CS. 
  
