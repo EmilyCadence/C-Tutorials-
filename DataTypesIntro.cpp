@@ -8,7 +8,6 @@
  
  compile and run this right in your browser at https://www.onlinegdb.com/
  
-
 *******************************************************************************/
 #include <iostream>
 #include <string> 
@@ -36,16 +35,16 @@ int main()
     store whatever we throw at it.   We have to be very specific when we tell the compiler 
     what we are storing.   This is a good thing because it gives us a lot of 
     control over how our code handles certain things.  It makes sure the type stays the same unless
-    we specifically overide that. It also gives us a degree of 
+    we specifically override that. It also gives us a degree of 
     safety because keeps the compiler from doing something  we did not intend compared 
     to if we let it try to deduce and figure out the type for us. 
     
-    We have a number of primative or fundemental data types to work with.
+    We have a number of primitive or fundamental data types to work with.
     These are some of the more common ones. 
      
     */ 
 
-    // An intiger is a whole number, or a number without decimals.
+    // An integer is a whole number, or a number without decimals.
     
     int speedLimit = 55;  
     
@@ -57,9 +56,9 @@ int main()
     
     an unsigned int for example is an exception to this.  An unsigned number in binary
     cannot store negative number.  At this time we don't have to worry about that.  But it
-    is an option if trying to write code thats heavily optimized for mememory Because
+    is an option if trying to write code that's heavily optimized for memory Because
     we can store a larger positive number because we aren't using a bit to define it as positive or negative. 
-    For more background on this look up twos complinent.  Twos complient is how computers store and differentiate 
+    For more background on this look up twos compliment.  Twos compliment is how computers store and differentiate 
     positive and negative numbers. This is optional but an important computer science concept.      
     
     https://www.youtube.com/watch?v=sJXTo3EZoxM
@@ -70,15 +69,15 @@ int main()
     
     // A long takes twice the memory as Int, but lets us store bigger whole numbers.  
     // If we try to exceed the largest number we can store its called an overflow. 
-    // Overflows in programming are generally really bad and are best avoided.  Catistrophic things have happend
+    // Overflows in programming are generally really bad and are best avoided.  Catastrophic things have happened
     // like rockets blowing up because of overflows.
     // We will worry about things like this more later on but at least now you know the basic concept. 
  
     long int bigNumber = 2147483647;
     
     //A float is a 32 bit floating point number, aka a number with decimals.  
-    //Because this an obvious mathmatical constant. This is a good time to make this a constant with const keyword. 
-    //The const keyword tells the complier that once we declare this variable it should stay a fixed value and never change. 
+    //Because this an obvious mathematical constant. This is a good time to make this a constant with const keyword. 
+    //The const keyword tells the compiler that once we declare this variable it should stay a fixed value and never change. 
     
     const float pi = 3.141;  
     
@@ -88,15 +87,14 @@ int main()
     This offers more precision than a float.  The name comes from "double precision". 
     In a modern system we have plenty of memory, and unless we are writing super optimized code
     we might as well just use double for floating point numbers. 
-
-    A pitfall of floating point numbers is that they are close aproximatiion.  Representing
+    A pitfall of floating point numbers is that they are close approximation.  Representing
     a number with decimals in binary takes some tricky math that we won't get into here.  
-    A double offers excelent precsion for most uses, like scientific calculaitons and 
+    A double offers excellent precision for most uses, like scientific calculations and 
     floating point math is designed to be FAST.   However something to be aware of 
     is that if we are doing math on base 10 numbers, like currency, or measurements.
-    We can introduce some innacuracies.   Its ok to use types like double 
+    We can introduce some inaccuracies.   Its OK to use types like double 
     for financial calculations while learning.   Production code uses various ways  
-    to work arround this, or complex data types designed for financial calculatons. 
+    to work around this, or complex data types designed for financial calculations. 
     
     */ 
     
@@ -104,24 +102,24 @@ int main()
  
     //So far we have focused on numbers.  What about text.
     
-    //A char stores Acharicter data, for letters, symbols, etc... 
-    //Chars store a SINGLE charicter. I.e we cannot store a word in a char. 
+    //A char stores a character data, for letters, symbols, etc... 
+    //Chars store a SINGLE character. I.e we cannot store a word in a char. 
     
     char firstInitial = 'A';   
                 
     char currencySign = '$'; 
     
-    // we can use a char to store a number.  Note that this is just the charicter data 
+    // we can use a char to store a number.  Note that this is just the character data 
     // for a number.  We are not actually storing a number.   So without using a function
     // that converts this to a type like an integer.  We cannot use it like as a number like int, or double. 
     
     char answer = '5';  
     
-    // Now that we have covered some primitave data types.  Lets talk about objects.
+    // Now that we have covered some primitive data types.  Lets talk about objects.
     // At the top of the file we imported <string> from the c++ standard library. 
     
     // The string class from the c++ standard library provides us with a string type 
-    // which is an object built from primitave data types.  
+    // which is an object built from primitive data types.  
     // We can use this to store a string of chars, aka text.
     
     string fullName = "Nyann Cat Nyaa Nyaa Nyaa";  
@@ -131,7 +129,7 @@ int main()
     
     string address =  "2521 Last Street";   
     
-    //booleans or bool store a simple true or false state.    Bool  can ONLY reperesent true or false.
+    //booleans or bool store a simple true or false state.    Bool  can ONLY represent true or false.
     //This is a basic building block of logic we will use with conditional statements or loops later. 
     
     bool isLate = true;
@@ -217,6 +215,3 @@ int main()
 }
 
 // press green button with arrow to run. 
-
-
-
