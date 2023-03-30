@@ -90,7 +90,7 @@ int main()
     
     */
 
-    float priceOfBurger = 9.25
+    float priceOfBurger = 9.25   //We might want this state to change in code, so we won't use const. 
     const float pi = 3.141;  
     
 
