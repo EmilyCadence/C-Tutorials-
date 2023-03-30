@@ -5,6 +5,8 @@
 Program - C Language Tutorial #1 by Emily CS.
 Author - Emily CS 
 Copyright - 2/11/23 Emily CS.  
+
+https://github.com/EmilyCadence
  
 Description: A quick C language Tutorial.   This borrows some C++ features
 like iostream to make this simpler than writing in pure C.  
