@@ -27,7 +27,7 @@ int main()
     We are going to explore data types further. 
     
     When we store a variable in memory.  this is represented as binary data.  I.e zeros and ones.   
-    The amount of memory is usually something like 8 bits, 16 bits, 32 bits, 64 bits, etc... based om 
+    The amount of memory is usually something like 8 bits, 16 bits, 32 bits, 64 bits, etc... based on
     whats needed for a specific type.   Some types take more bits to store data, than others.  For example
     a simple true and false state only needs a single bit to store true or false.    A big number might
     need 64 bits.  We don't want to pointlessly waste memory we don't NEED to use. 
@@ -77,12 +77,18 @@ int main()
  
     long int bigNumber = 2147483647;
     
-    //A float is a 32 bit floating point number, aka a number with decimals.  
-    //Because this an obvious mathematical constant. This is a good time to make this a constant with const keyword. 
-    //The const keyword tells the compiler that once we declare this variable it should stay a fixed value and never change. 
+    /*
+
+    A float is a 32 bit floating point number, aka a number with decimals.  
+    Because this an obvious mathematical constant. This is a good time to make this a constant with const keyword. 
+
+    The const keyword tells the compiler that once we declare this variable it should stay a fixed value and never change.   Declaring variables as constants helps prevent bugs from happening. This might not seem like a big deal now but later on when our code gets longer and more complex this is really important.   We shouldn't just do this for obvious things such as mathematical constants.  Its good practice to many any variable a const that we do not intend to change later in our code.  
     
+    */
+
     const float pi = 3.141;  
     
+
     /* 
     
     A double is a 64 bit floating point number, aka a number with decimals.  
