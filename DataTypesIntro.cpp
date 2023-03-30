@@ -82,7 +82,11 @@ int main()
     A float is a 32 bit floating point number, aka a number with decimals.  
     Because this an obvious mathematical constant. This is a good time to make this a constant with const keyword. 
 
-    The const keyword tells the compiler that once we declare this variable it should stay a fixed value and never change.   Declaring variables as constants helps prevent bugs from happening. This might not seem like a big deal now but later on when our code gets longer and more complex this is really important.   We shouldn't just do this for obvious things such as mathematical constants.  Its good practice to many any variable a const that we do not intend to change later in our code.  
+    The const keyword tells the compiler that once we declare this variable it should stay a fixed value and never change.   
+    Declaring variables as constants helps prevent bugs from happening. This might not seem like a big deal now but later 
+    on when our code gets longer and more complex this is really important.   We shouldn't just do this for obvious 
+    things such as mathematical constants.  Its good practice to many any variable a const that we do not intend to change 
+    later in our code.  
     
     */
 
