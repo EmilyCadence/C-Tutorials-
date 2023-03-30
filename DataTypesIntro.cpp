@@ -90,6 +90,7 @@ int main()
     
     */
 
+    float priceOfBurger = 9.25
     const float pi = 3.141;  
     
 
