@@ -56,6 +56,28 @@ int main()
     
     /* 
     
+    Naming. 
+    
+    1.) THe name of a variable SHALL make it clear what that variable stores without needing a comment.
+    2.) Variables in C should start with a lower case letter. 
+    2.) Use camelCase. (Capitalize the first letter of each word after the first word) I.e camelCaseLettering
+    3.) We can also use underscores numberOfPies_10
+ 
+    */
+  
+    //good programer 
+ 
+    int numberOfSteaks = 5;
+    int numOfGuests = 10; 
+    
+    //bad programmer
+ 
+    int a = 1250; 
+    int b = 95;
+    int t = 7;
+ 
+    /*
+    
     an unsigned int for example is an exception to this.  An unsigned number in binary
     cannot store negative number.  At this time we don't have to worry about that.  But it
     is an option if trying to write code that's heavily optimized for memory Because
